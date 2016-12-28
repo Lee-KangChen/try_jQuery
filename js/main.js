@@ -5,6 +5,7 @@ function main(){
 
   $('.projects-button').on('click', function() {
     $('.projects').toggle();
+    $('.projects-button').toggleClass('active');
   });
 
 }
