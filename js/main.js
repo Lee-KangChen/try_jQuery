@@ -1,5 +1,8 @@
 function main(){
-  $('.skillset').fadeIn(4000);
   $('.skillset').hide();
+  $('.skillset').fadeIn(1000);
+  $('.projects').hide();
+  $('.projects-button').on('click', function() {
+  });
 }
 $(document).ready(main);
