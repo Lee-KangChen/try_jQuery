@@ -1,5 +1,4 @@
 function main(){
-  var $skillset = $('.skillset');
-  alert($skillset);
+  $('.skillset').hide();
 }
 $(document).ready(main);
